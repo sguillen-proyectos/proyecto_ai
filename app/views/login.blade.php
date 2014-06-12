@@ -3,6 +3,16 @@
 @section('content')
 <div class="row">
   <div class="col-md-4 col-md-offset-4">
+    Usuarios de prueba: <br>
+    user: admin <br>
+    password: 12345 <br>
+
+    user: admin2 <br>
+    password: 12345 <br>
+
+    La búsqueda se mostrará en orden de probabilidades, los registros con más probabilidad a ser elegidos se mostrarán primero
+
+
     <div class="form-group">
       {{Form::open(['url'=>'login'])}}
       <b>{{Form::label('username', 'Username:')}}</b>
